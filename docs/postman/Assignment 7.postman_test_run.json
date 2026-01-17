@@ -1,0 +1,462 @@
+{
+	"id": "f1bd76a0-3210-4e23-9eaf-92caf629e1e3",
+	"name": "Assignment 7",
+	"timestamp": "2026-01-17T11:58:38.531Z",
+	"collection_id": "39393132-0b6f24a2-890e-4fee-bee2-7e4a35b5b69e",
+	"folder_id": 0,
+	"environment_id": "39393132-e4f6f557-d1e3-48ac-9dcd-01f8060981ec",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-01-17T11:58:30.038Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6ae4040c-8afb-45a7-95fa-5c7c9767e438",
+			"name": "get all users",
+			"url": "http://localhost:3000/users/",
+			"time": 2187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2187
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8eb022b4-1624-473e-b1eb-f7ecc9e4a284",
+			"name": "get user by id",
+			"url": "http://localhost:3000/users/1",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				263
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f95001ed-1535-433e-9f1f-6d29c63e1395",
+			"name": "get user by email",
+			"url": "http://localhost:3000/users/by-email?email=borhom@gmail.com",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				169
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8d9edb2c-3b64-46b8-a2c5-6fce041647d4",
+			"name": "signup user",
+			"url": "http://localhost:3000/users/signup",
+			"time": 356,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				356
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7e967637-a095-45be-aeaa-90a4e74e18a1",
+			"name": "update user",
+			"url": "http://localhost:3000/users/1",
+			"time": 166,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				166
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c44786c4-6450-40d3-8893-692ec5106f29",
+			"name": "delete user",
+			"url": "http://localhost:3000/users/6",
+			"time": 156,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				156
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2a034cce-860d-4137-9815-bae4a041806e",
+			"name": "get all posts",
+			"url": "http://localhost:3000/posts",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				167
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a068d2b0-60e1-4f62-a36a-1e6ec68274c2",
+			"name": "get all posts with comments",
+			"url": "http://localhost:3000/posts/details",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				160
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "97bef8c9-c489-413c-81a6-4468bd4a133b",
+			"name": "get all posts with comments count",
+			"url": "http://localhost:3000/posts/comments-count",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				165
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "837ae796-0013-4d7c-8b00-cbfe348b16d0",
+			"name": "add new post",
+			"url": "http://localhost:3000/posts",
+			"time": 159,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				159
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d4dd7bfe-675c-4467-b485-d503e22589a7",
+			"name": "delete post",
+			"url": "http://localhost:3000/posts/3?userId=1",
+			"time": 154,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				154
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5173b72a-8ce9-4ea4-8174-75b6fea5ad02",
+			"name": "delete post",
+			"url": "http://localhost:3000/posts/5?userId=3434",
+			"time": 152,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				152
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9249e00c-cfc6-4201-8b76-5599b3a4b744",
+			"name": "get all comments",
+			"url": "http://localhost:3000/comments",
+			"time": 162,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				162
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d3f90692-d662-44a4-91cd-330af4da60de",
+			"name": "search comment by substring",
+			"url": "http://localhost:3000/comments/search?word=shining",
+			"time": 154,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				154
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b1d5d5f4-e855-428e-93a3-8a20ed4d4376",
+			"name": "get newest comments for post",
+			"url": "http://localhost:3000/comments/newest/4",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				306
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e50587f8-940a-47e9-82e9-5013da2b79de",
+			"name": "get comment details by id",
+			"url": "http://localhost:3000/comments/details/12",
+			"time": 159,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				159
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8d207743-97b3-4073-9b74-327e0c751d2c",
+			"name": "bulk comment insertion",
+			"url": "http://localhost:3000/comments",
+			"time": 164,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				164
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6ba9db22-e7ec-445c-899f-c38fec8921cc",
+			"name": "find or create",
+			"url": "http://localhost:3000/comments/find-or-create",
+			"time": 457,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				457
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0e524669-3e28-4b4b-a3b9-3590d0c4d080",
+			"name": "update comment",
+			"url": "http://localhost:3000/comments/4?userId=1",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				306
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5c1e5b0c-d403-4c93-a746-6e04af4a6adf",
+			"name": "get comment details by id",
+			"url": "http://localhost:3000/comments/details/12234",
+			"time": 157,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				157
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6119,
+	"collection": {
+		"requests": [
+			{
+				"id": "6ae4040c-8afb-45a7-95fa-5c7c9767e438",
+				"method": "GET"
+			},
+			{
+				"id": "8eb022b4-1624-473e-b1eb-f7ecc9e4a284",
+				"method": "GET"
+			},
+			{
+				"id": "f95001ed-1535-433e-9f1f-6d29c63e1395",
+				"method": "GET"
+			},
+			{
+				"id": "8d9edb2c-3b64-46b8-a2c5-6fce041647d4",
+				"method": "POST"
+			},
+			{
+				"id": "7e967637-a095-45be-aeaa-90a4e74e18a1",
+				"method": "PUT"
+			},
+			{
+				"id": "c44786c4-6450-40d3-8893-692ec5106f29",
+				"method": "DELETE"
+			},
+			{
+				"id": "2a034cce-860d-4137-9815-bae4a041806e",
+				"method": "GET"
+			},
+			{
+				"id": "a068d2b0-60e1-4f62-a36a-1e6ec68274c2",
+				"method": "GET"
+			},
+			{
+				"id": "97bef8c9-c489-413c-81a6-4468bd4a133b",
+				"method": "GET"
+			},
+			{
+				"id": "837ae796-0013-4d7c-8b00-cbfe348b16d0",
+				"method": "POST"
+			},
+			{
+				"id": "d4dd7bfe-675c-4467-b485-d503e22589a7",
+				"method": "DELETE"
+			},
+			{
+				"id": "5173b72a-8ce9-4ea4-8174-75b6fea5ad02",
+				"method": "DELETE"
+			},
+			{
+				"id": "9249e00c-cfc6-4201-8b76-5599b3a4b744",
+				"method": "GET"
+			},
+			{
+				"id": "d3f90692-d662-44a4-91cd-330af4da60de",
+				"method": "GET"
+			},
+			{
+				"id": "b1d5d5f4-e855-428e-93a3-8a20ed4d4376",
+				"method": "GET"
+			},
+			{
+				"id": "e50587f8-940a-47e9-82e9-5013da2b79de",
+				"method": "GET"
+			},
+			{
+				"id": "8d207743-97b3-4073-9b74-327e0c751d2c",
+				"method": "POST"
+			},
+			{
+				"id": "6ba9db22-e7ec-445c-899f-c38fec8921cc",
+				"method": "POST"
+			},
+			{
+				"id": "0e524669-3e28-4b4b-a3b9-3590d0c4d080",
+				"method": "PATCH"
+			},
+			{
+				"id": "5c1e5b0c-d403-4c93-a746-6e04af4a6adf",
+				"method": "GET"
+			}
+		]
+	}
+}
