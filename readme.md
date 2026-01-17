@@ -109,3 +109,9 @@ Assignment 7/
 - content
 - userId (Foreign Key)
 - postId (Foreign Key)
+
+## Bonus
+
+LeetCode Problem Solution: [Remove Element](https://leetcode.com/problems/remove-element/submissions/1887680669/)
+
+Implementation: [bonus.js](bonus.js)
