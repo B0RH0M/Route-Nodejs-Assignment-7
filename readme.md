@@ -2,6 +2,10 @@
 
 A RESTful API built with Express.js and Sequelize ORM for managing users, posts, and comments.
 
+## Requirements
+
+[View Assignment Requirements](https://drive.google.com/file/u/1/d/19I11ao7l7XQcuKCiY0ZEEa1CItEWvogW/view)
+
 ## Features
 
 - User management (CRUD operations)
